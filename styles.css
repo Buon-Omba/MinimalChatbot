@@ -1,0 +1,78 @@
+body {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    display: flex;
+}
+.container {
+    max-width: 80%;
+    padding: 20px;
+    margin: 20px;
+}
+.input-field {
+    width: 100%;
+    padding: 20px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 30px;
+    background-color = white;
+}
+
+.form input[type="radio"]:checked+label, .Checked+label {
+  background: #ddd;
+  display:none;
+}
+.col-md-12 label {
+  cursor: pointer;
+  background-color: rgba(0,0,0,0.4);
+  color: #ddd;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 30px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  text-shadow: -0.5px 0 #000, 0 0.5px #000, 0.5px 0 #000, 0 -0.5px #000;
+  font-size: 16px;
+}
+input[type="radio"], input[type="checkbox"] {
+  margin-right: 5px; /* Aggiunge spazio tra il radio button e l'emoji */
+}
+.form label:hover {
+  background: #DDD;
+}
+
+button.btn {
+    background-color: rgba(0,0,0,0.4);
+    color: #ddd;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 30px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    text-shadow: -0.5px 0 #000, 0 0.5px #000, 0.5px 0 #000, 0 -0.5px #000;
+    font-size: 16px;
+    transform: translateY(-2px); /* Sposta l'elemento di 2 pixel verso l'alto */
+}
+button.btn:hover {
+    background-color: rgba(0,0,0,0.4);
+    color: #fff;
+}
+.result {
+    width: 100%;
+    padding: 20px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0,0,0,0.4);
+    color: #ddd;
+    text-shadow: -0.5px 0 #000, 0 0.5px #000, 0.5px 0 #000, 0 -0.5px #000;
+}
+h1, h5 {
+    color: #ddd;
+    text-shadow: -0.5px 0 #000, 0 0.5px #000, 0.5px 0 #000, 0 -0.5px #000;
+}
